@@ -9,8 +9,12 @@ export default {
     extend: {
       colors: {
         primary: "#DC143C",
-        secondary: "#D0D6F9",
+        secondary: "#ECEDEE",
         tertiary: "#FFFFFF",
+      },
+      screens: {
+        xs: "450px",
+        cm: "950px",
       },
     },
   },
