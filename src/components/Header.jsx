@@ -3,20 +3,21 @@ import { useState, useEffect } from "react";
 import { FaMoon } from "react-icons/fa";
 
 function Header() {
-  const [themomde, setThemomde] = useState(() => {
+  const [themeMode, setThemeMode] = useState(() => {
     const storedTheme = localStorage.getItem("themeMode");
-    return storedTheme ? storedTheme === "light" : true;
+    return storedTheme ? storedTheme === "light" : true; // true for light mode by default
   });
 
   useEffect(() => {
-    localStorage.setItem("themeMode", themomde ? "light" : "dark");
+    localStorage.setItem("themeMode", themeMode ? "light" : "dark");
     const html = document.querySelector("html");
     html.classList.remove("light", "dark");
-    html.classList.add(themomde ? "light" : "dark");
-  }, [themomde]);
+    html.classList.add(themeMode ? "light" : "dark");
+  }, [themeMode]);
+
   return (
     <>
-      <div className="flex justify-between px-6 pt-2 bg-[#EDF2F8] dark:bg-[#0F1624]">
+      <div className="flex justify-between px-6 pt-2 bg-[#EDF2F8] dark:bg-[#0F1624]  transition-all duration-300">
         <h1 className="text-[35px] font-sans font-bold dark:text-secondary">
           MO<span className="text-primary ">HIT</span>{" "}
         </h1>
@@ -29,7 +30,7 @@ function Header() {
           <li>
             <FaMoon
               className="text-xl hover:cursor-pointer "
-              onClick={() => setThemomde((prev) => !prev)}
+              onClick={() => setThemeMode((prev) => !prev)}
             />
           </li>
         </ul>

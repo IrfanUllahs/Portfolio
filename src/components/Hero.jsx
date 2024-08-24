@@ -4,17 +4,17 @@ import Typewriter from "typewriter-effect";
 
 function Hero() {
   return (
-    <div className="flex flex-col cm:flex-row cm:h-[90vh] dark:bg-[#0F1624] ">
+    <div className="flex flex-col cm:flex-row cm:h-[90vh] dark:bg-[#0F1624] transition-all duration-300 ">
       {/* Left Side */}
       <div className="flex-[2]  flex justify-center flex-col items-center cm:items-end p-4 cm:order-1 order-2 ">
         <div className="flex flex-col  text-center md:text-right text-[#1A202C] items-start lg:pr-24">
-          <p className="font-sans text-[18px] xs:text-[28px] font-bold leading-tight">
+          <p className="font-sans text-[18px] xs:text-[28px] font-bold leading-tight dark:text-secondary ">
             Hello, my name is
           </p>
-          <h1 className="name text-[50px] xs:text-[75px] font-bold leading-none my-2 ">
+          <h1 className="name text-[50px] xs:text-[75px] font-bold leading-none my-2 dark:text-secondary  ">
             Irfan Ullah
           </h1>
-          <p className="font-sans text-[20px]  xs:text-[30px] font-semibold leading-snug">
+          <p className="font-sans text-[20px]  xs:text-[30px] font-semibold leading-snug dark:text-secondary ">
             I'm a{" "}
             <span className="text-primary font-bold text-[22px] sm:text-[40px] leading-tight">
               Full Stack Developer
