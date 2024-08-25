@@ -1,13 +1,14 @@
 import React from "react";
 import profileImage from "../../public/file.png";
 import Typewriter from "typewriter-effect";
+import { IoClose } from "react-icons/io5";
 
-function Hero() {
+function Hero({ isOpen, setOpen }) {
   return (
-    <div className="flex flex-col cm:flex-row cm:h-[90vh] dark:bg-[#0F1624] transition-all duration-300 ">
+    <div className="flex flex-col cm:flex-row cm:h-[100vh] dark:bg-[#0F1624] transition-all duration-300   ">
       {/* Left Side */}
       <div className="flex-[2]  flex justify-center flex-col items-center cm:items-end p-4 cm:order-1 order-2 ">
-        <div className="flex flex-col  text-center md:text-right text-[#1A202C] items-start lg:pr-24">
+        <div className="flex flex-col  text-center md:text-right text-[#1A202C] items-start lg:pr-[100px]">
           <p className="font-sans text-[18px] xs:text-[28px] font-bold leading-tight dark:text-secondary ">
             Hello, my name is
           </p>
@@ -30,13 +31,13 @@ function Hero() {
               typewriter
                 .typeString("Hello World!")
                 .callFunction(() => {
-                  console.log("String typed out!");
+                  // console.log("String typed out!");
                 })
                 .pauseFor(250)
                 .deleteAll()
 
                 .callFunction(() => {
-                  console.log("All strings were deleted");
+                  // console.log("All strings were deleted");
                 })
                 .start();
             }}
@@ -51,7 +52,7 @@ function Hero() {
       </div>
 
       {/* Right Side */}
-      <div className="flex-1  pt-10 md:pt-[100px] flex  cm:order-2 order-1  md:px-0 cs:mt-0 mt-6  ">
+      <div className="flex-1  pt-10 md:pt-[100px] flex  cm:order-2 order-1  md:px-0 cs:mt-0 mt-16 cm:mr-16  ">
         <div className="relative  w-[280px] h-[280px] xs:w-[400px] xs:h-[400px] md:w-[350px] md:h-[350px]  mx-auto ">
           <div className="bg-primary rounded-full w-[85%] h-[85%] "></div>
           <img
