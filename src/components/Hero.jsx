@@ -5,7 +5,7 @@ import { IoClose } from "react-icons/io5";
 
 function Hero({ isOpen, setOpen }) {
   return (
-    <div className="flex flex-col cm:flex-row cm:h-[100vh] dark:bg-[#0F1624] transition-all duration-300   ">
+    <div className="flex flex-col cm:flex-row cm:h-[100vh] dark:bg-[#0F1624] transition-all duration-300 bg-[#EDF2F8]   ">
       {/* Left Side */}
       <div className="flex-[2]  flex justify-center flex-col items-center cm:items-end p-4 cm:order-1 order-2 ">
         <div className="flex flex-col  text-center md:text-right text-[#1A202C] items-start lg:pr-[100px]">
@@ -53,7 +53,7 @@ function Hero({ isOpen, setOpen }) {
 
       {/* Right Side */}
       <div className="flex-1  pt-10 md:pt-[100px] flex  cm:order-2 order-1  md:px-0 cs:mt-0 mt-16 cm:mr-16  ">
-        <div className="relative  w-[280px] h-[280px] xs:w-[400px] xs:h-[400px] md:w-[350px] md:h-[350px]  mx-auto ">
+        <div className="relative  w-[280px] h-[280px] xs:w-[400px] xs:h-[400px] md:w-[350px] md:h-[350px]  mx-auto -z-0 ">
           <div className="bg-primary rounded-full w-[85%] h-[85%] "></div>
           <img
             src={profileImage}

@@ -19,7 +19,7 @@ function Header({ isOpen, setOpen }) {
 
   return (
     <>
-      <div className="flex justify-between px-6 pt-2 bg-[#EDF2F8] dark:bg-[#0F1624]  transition-all duration-300  fixed w-full dark:shadow-sm dark:shadow-gray-300">
+      <div className="flex justify-between px-6 pt-2 bg-[#EDF2F8] dark:bg-[#0F1624]  transition-all duration-300  fixed w-full z-40">
         <h1 className="text-[35px] font-sans font-bold dark:text-secondary ">
           IR<span className="text-primary ">FAN</span>{" "}
         </h1>

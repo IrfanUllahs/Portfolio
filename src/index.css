@@ -13,3 +13,11 @@
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
     sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
+ul.custom-bullets {
+  list-style-type: disc; /* Default dot */
+  margin-left: 20px; /* Adjust left margin if needed */
+}
+
+ul.custom-bullets li {
+  margin-bottom: 8px; /* Space between list items */
+}
