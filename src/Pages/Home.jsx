@@ -4,6 +4,7 @@ import Header from "../components/Header";
 import Hero from "../components/Hero";
 import { IoClose } from "react-icons/io5";
 import AboutMe from "../components/AboutMe";
+import Project from "../components/Project";
 
 export default function Home() {
   const [isOpen, setOpen] = useState(false);
@@ -25,6 +26,7 @@ export default function Home() {
           <Header isOpen={isOpen} setOpen={setOpen} />
           <Hero isOpen={isOpen} setOpen={setOpen} />
           <AboutMe />
+          <Project />
         </>
       )}
     </div>
