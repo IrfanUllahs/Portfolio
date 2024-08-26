@@ -4,7 +4,7 @@ import { FaEye } from "react-icons/fa";
 
 function Card() {
   return (
-    <div className="h-[520px]   bg-[#ffffff] dark:bg-[#0B111B] p-5 font-serif rounded-lg ">
+    <div className="  h-[630px] md:h-[500px] lg:h-[590px] xs:h-[450px] xl:h-[520px]   bg-[#ffffff] dark:bg-[#0B111B] p-5 font-serif rounded-lg cm:h-[470px] ">
       {/* this is the image sectin of the card */}
       <div className="w-full h-[38%] border-2 rounded-lg"></div>
       <div className="flex flex-col gap-3">

@@ -7,7 +7,7 @@ function Project() {
       <h1 className="font-sans text-[28px] sm:text-[35px] font-bold text-center dark:text-secondary">
         My Creative <span className="text-primary">Portfolio</span> Section
       </h1>
-      <div className="grid lg:grid-cols-3 cm:grid-cols-2 grid-cols-1 mt-[50px] gap-10">
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 mt-[50px] gap-10">
         {Array(6)
           .fill()
           .map((_, i) => (
