@@ -23,18 +23,30 @@ function Contact() {
               <div className="flex w-full   min-h-screen xl:px-[80px] md:px-[10px] sm:px-[30px] px-[10px]    ">
                 <form className="  pt-6 pb-8 mb-4  w-full flex flex-col  gap-2">
                   <div className="flex justify-between mb-4 font-serif ">
-                    <button className="bg-[#00A0DC] hover:bg-[#167fa5] transition-all duration-200 text-white font-bold py-2 xs:px-4 px-2 rounded flex items-center justify-center gap-2">
+                    <a
+                      className="bg-[#00A0DC] hover:bg-[#167fa5] transition-all duration-200 text-white font-bold py-2 xs:px-4 px-2 rounded flex items-center justify-center gap-2"
+                      href="https://www.linkedin.com/in/irfan-ullah-2155b5235/"
+                      target="_blank"
+                    >
                       <FaLinkedin />
                       LinkedIn
-                    </button>
-                    <button className="bg-[#333] hover:bg-[#222] transition-all duration-200 text-white font-bold py-2 xs:px-4 px-2 rounded flex items-center justify-center gap-2">
+                    </a>
+                    <a
+                      className="bg-[#333] hover:bg-[#222] transition-all duration-200 text-white font-bold py-2 xs:px-4 px-2 rounded flex items-center justify-center gap-2"
+                      href="https://github.com/irfanullahs"
+                      target="_blank"
+                    >
                       <FaGithub />
                       GitHub
-                    </button>
-                    <button className="bg-primary hover:bg-[#c2211c] transition-all duration-200 text-white font-bold py-2 xs:px-4 px-2 rounded flex items-center justify-center gap-2">
+                    </a>
+                    <a
+                      className="bg-primary hover:bg-[#c2211c] transition-all duration-200 text-white font-bold py-2 xs:px-4 px-2 rounded flex items-center justify-center gap-2"
+                      href="mailto:engrirfanullah981@gmail.com"
+                      target="_blank"
+                    >
                       <MdOutlineEmail className="text-[20px]" />
                       Gmail
-                    </button>
+                    </a>
                   </div>
                   <div className="mb-4">
                     <input
