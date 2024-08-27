@@ -4,77 +4,77 @@ function Skills() {
   const data = [
     {
       name: "HTML",
-      icon: "../../public/Skill/html-5-svgrepo-com.svg",
+      icon: "../../Skill/html-5-svgrepo-com.svg",
       category: "frontend",
     },
     {
       name: "CSS",
-      icon: "../../public/Skill/css-5-svgrepo-com.svg",
+      icon: "../../Skill/css-5-svgrepo-com.svg",
       category: "frontend",
     },
     {
       name: "Tailwind",
-      icon: "../../public/Skill/tailwindcss-icon-svgrepo-com.svg",
+      icon: "../../Skill/tailwindcss-icon-svgrepo-com.svg",
       category: "frontend",
     },
     {
       name: "Bootstrap",
-      icon: "../../public/Skill/bootstrap-fill-svgrepo-com.svg",
+      icon: "../../Skill/bootstrap-fill-svgrepo-com.svg",
       category: "frontend",
     },
     {
       name: "JavaScript",
-      icon: "../../public/Skill/javascript-svgrepo-com.svg",
+      icon: "../../Skill/javascript-svgrepo-com.svg",
       category: "frontend",
     },
     {
       name: "React",
-      icon: "../../public/Skill/react-svgrepo-com.svg",
+      icon: "../../Skill/react-svgrepo-com.svg",
       category: "frontend",
     },
     {
       name: "Redux",
-      icon: "../../public/Skill/redux-logo-svgrepo-com.svg",
+      icon: "../../Skill/redux-logo-svgrepo-com.svg",
       category: "frontend",
     },
     {
       name: "Chakra UI",
-      icon: "../../public/Skill/chakraui-svgrepo-com (1).svg",
+      icon: "../../Skill/chakraui-svgrepo-com (1).svg",
       category: "frontend",
     },
     {
       name: "Material UI",
-      icon: "../../public/Skill/materialui.6480f23a.svg",
+      icon: "../../Skill/materialui.6480f23a.svg",
       category: "frontend",
     },
     {
       name: "Node JS",
-      icon: "../../public/Skill/nodejs-icon-svgrepo-com.svg",
+      icon: "../../Skill/nodejs-icon-svgrepo-com.svg",
       category: "backend",
     },
     {
       name: "Express JS",
-      icon: "../../public/Skill/express-js-icon.svg",
+      icon: "../../Skill/express-js-icon.svg",
       category: "backend",
     },
     {
       name: "MongoDB",
-      icon: "../../public/Skill/mongo-svgrepo-com.svg",
+      icon: "../../Skill/mongo-svgrepo-com.svg",
       category: "backend",
     },
     {
       name: "Mongoose",
-      icon: "../../public/Skill/mongoose.20aad1bc.png",
+      icon: "../../Skill/mongoose.20aad1bc.png",
       category: "backend",
     },
     {
       name: "Git",
-      icon: "../../public/Skill/git-svgrepo-com.svg",
+      icon: "../../Skill/git-svgrepo-com.svg",
       category: "backend",
     },
     {
       name: "Postman",
-      icon: "../../public/Skill/postman-icon-svgrepo-com.svg",
+      icon: "../../Skill/postman-icon-svgrepo-com.svg",
       category: "backend",
     },
     {
