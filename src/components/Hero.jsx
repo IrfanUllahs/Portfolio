@@ -7,7 +7,7 @@ function Hero({ isOpen, setOpen }) {
   return (
     <div className="flex flex-col cm:flex-row  dark:bg-[#0F1624] transition-all duration-300 bg-[#EDF2F8]  py-[100px]  ">
       {/* Left Side */}
-      <div className="flex-[2]  flex justify-center flex-col items-center cm:items-end p-4 cm:order-1 order-2   ">
+      <div className="flex-[2]  flex justify-center flex-col items-center cm:items-end p-2 xs:p-4 cm:order-1 order-2  ">
         <div className="flex flex-col   md:text-right text-[#1A202C] items-start  lg:pr-[100px] sm:w-[500px] cm:w-[600px]  w-[95%]    ">
           <p className="font-sans text-[18px] xs:text-[28px] font-bold leading-tight dark:text-secondary ">
             Hello, my name is
@@ -51,7 +51,8 @@ function Hero({ isOpen, setOpen }) {
           <div className="bg-primary rounded-full w-[85%] h-[85%] "></div>
           <img
             src={profileImage}
-            alt=""
+            alt="Image"
+            draggable="false"
             className="absolute -top-10 sm:-top-13 -left-6 w-full h-full object-cover rounded-br-md rounded-bl-md "
           />
         </div>

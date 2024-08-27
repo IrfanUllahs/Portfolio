@@ -9,7 +9,7 @@ function AboutMe() {
       </h1>
       <div className=" flex justify-center items-center mt-10 gap-10 cm:flex-row flex-col  ">
         <div className="flex-1 ">
-          <img src={profileSvg} alt="profile" />
+          <img src={profileSvg} alt="profile" draggable="false" />
         </div>
         <div className="flex-1">
           <ul className="flex flex-col gap-6 custom-bullets">
