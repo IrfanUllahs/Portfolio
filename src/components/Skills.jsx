@@ -78,7 +78,7 @@ function Skills() {
       category: "backend",
     },
     {
-      name: "GraphQL",
+      name: "MySQL",
       icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/GraphQL_Logo.svg/512px-GraphQL_Logo.svg.png",
       category: "frontend",
     },
